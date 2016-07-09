@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Pousada.exe" version="1.0.0.1" publicKeyToken="b85bf7712c824832" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Pousada" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Pousada.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pousada.exe" size="186368">
+      <assemblyIdentity name="Pousada" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Z/TsEQCZSM6YUozM+mvJmBFp7gE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=MarcoAntonio-PC\Marco Antonio" issuerKeyHash="116763d6cfb5ec27d5d61365e8e7646f458a6c05" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>hmEkapZ1VKe8CSp5Nn+tqzfvyoU=</DigestValue></Reference></SignedInfo><SignatureValue>lG/x4HOeseIFNLEHxJj2dS5MFA+hda1O4+UL7Q0UyUVax+ESzza7uwbREfxzxWJZRjlaFIbHBFZHl8qNUP/i52+MwOVL9ShO/ygVAv7s95Yo62OFzhh5orWYlNqxaUc8i3wdm7W84UNIJZM+/xC6uE/4D09dN8mFKkDEIdzFNdM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tNr3IlVEh39J46UMtntDkaFo+pwbaVt5jCDlw52eqwlja8sMLDUDwUiYobN+6aVzJhhMmRE3FivmuBIa7qJjcXgh9ZVihyrYj75jmoSFOC6mT1e3C/xXFoMGzNmWdAiJQ2ptnv4nwQi9H79iiWUILkiiy+jxSjHAJlTKQRSKFSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="85caef37abad7f36792a09bca75475966a246186" Description="" Url=""><as:assemblyIdentity name="Pousada.exe" version="1.0.0.1" publicKeyToken="b85bf7712c824832" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MarcoAntonio-PC\Marco Antonio</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>U0rsC7wx2pMVx1yQvR8ucZJrbJs=</DigestValue></Reference></SignedInfo><SignatureValue>VMtZVuhOxM81Ct9ex1nUUpGgn2GEW6NWSW5jZvo7PKAd2XsWZr7yYAj0Mat4RlhFg6YCnUpwdUmWefLIDXjaBNZGUF61KFmnw7uWNHCe1H4Zd26xjTshOidUbX9eLmItRrS6bZd+QVrJDZtYlnzZCoc9n/EpT3ECpc+ufonZZtA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tNr3IlVEh39J46UMtntDkaFo+pwbaVt5jCDlw52eqwlja8sMLDUDwUiYobN+6aVzJhhMmRE3FivmuBIa7qJjcXgh9ZVihyrYj75jmoSFOC6mT1e3C/xXFoMGzNmWdAiJQ2ptnv4nwQi9H79iiWUILkiiy+jxSjHAJlTKQRSKFSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQPjdlcPL6UYFO9o66FDP9WDANBgkqhkiG9w0BAQUFADBFMUMwQQYDVQQDHjoATQBhAHIAYwBvAEEAbgB0AG8AbgBpAG8ALQBQAEMAXABNAGEAcgBjAG8AIABBAG4AdABvAG4AaQBvMB4XDTE2MDcwMzE4NTYwNVoXDTE3MDcwNDAwNTYwNVowRTFDMEEGA1UEAx46AE0AYQByAGMAbwBBAG4AdABvAG4AaQBvAC0AUABDAFwATQBhAHIAYwBvACAAQQBuAHQAbwBuAGkAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtNr3IlVEh39J46UMtntDkaFo+pwbaVt5jCDlw52eqwlja8sMLDUDwUiYobN+6aVzJhhMmRE3FivmuBIa7qJjcXgh9ZVihyrYj75jmoSFOC6mT1e3C/xXFoMGzNmWdAiJQ2ptnv4nwQi9H79iiWUILkiiy+jxSjHAJlTKQRSKFSECAwEAATANBgkqhkiG9w0BAQUFAAOBgQCr4ORTSE4E9FKlWO2kShRQ2z0bzH+rJG8zsF+WmYBEKxG4RH8Tt0+823oQaztfcIkjx2RYzV5vVoAS93+WiXsuHGgz88YAuXBoUM/G2/xG8cPxecsXuloZX4W4aaJPrSb17te8LsOvTpE4a3n7wpNBmjyoLmNNbcDSwNNRK99fCw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
