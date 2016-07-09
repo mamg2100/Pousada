@@ -372,6 +372,7 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.cmbEstadoCvil);
+            this.panel1.Controls.Add(this.monthCalendar1);
             this.panel1.Controls.Add(this.label20);
             this.panel1.Controls.Add(this.cmbNacional);
             this.panel1.Controls.Add(this.label10);
@@ -599,7 +600,7 @@
             // 
             this.monthCalendar1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.monthCalendar1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.monthCalendar1.Location = new System.Drawing.Point(658, 14);
+            this.monthCalendar1.Location = new System.Drawing.Point(177, 9);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 26;
             this.monthCalendar1.Visible = false;
@@ -651,7 +652,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(890, 530);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panel3);
